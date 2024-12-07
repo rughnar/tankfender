@@ -1,0 +1,4197 @@
+fileFormatVersion: 2
+guid: 57222313188e17146a21e751c1ea5f0a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 108
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: topdownTanks_vector_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2486
+        width: 180
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d42f8388a9b0804498d9cd9499174b2
+      internalID: 682715680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2528
+        width: 70
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f096dd101d8bc394792666222606a2de
+      internalID: -1161257925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_2
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2528
+        width: 53
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1874f2d0171f749b78b2fcf6c1716c
+      internalID: -1832116838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_3
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 2528
+        width: 52
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d15ba48da09f18409d36a0200b7b288
+      internalID: 1897247148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_4
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2486
+        width: 180
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddaf65a2940d1643991cb1ef4174f1a
+      internalID: 1801801342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_5
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 2528
+        width: 72
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2b7be886d515e4aba5da7e80a74589
+      internalID: 1455392919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_6
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2528
+        width: 55
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6301285d305c6a34688c0e1e00c9e74e
+      internalID: 1496730003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_7
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2528
+        width: 55
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d508797da98cb948b3db83a4d817493
+      internalID: -1882737482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_8
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2486
+        width: 162
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395f517c6e053fd4b8976ed38f233590
+      internalID: -684579802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_9
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 2528
+        width: 70
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed120ca8e2cc7f34089e5df8560e6673
+      internalID: 791480653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_10
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 2528
+        width: 55
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85caee1f4234db84e9052f4c9022fdea
+      internalID: -20541309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_11
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 2528
+        width: 54
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91806ee6ab979f547bd7fc34c3cccc24
+      internalID: -1729773752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_12
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 2477
+        width: 179
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f236547530d60348b68cad60c1014f0
+      internalID: 431609249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_13
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 2528
+        width: 70
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbab08a15125a64a943a5b584dc92c6
+      internalID: 338984781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_14
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 2528
+        width: 53
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8109d0a267f4b4e8cb36dbcf1dc6b3
+      internalID: -1374882857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_15
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 2528
+        width: 53
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2277f9fa32b914690eabaa32dc0d05
+      internalID: -887226643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_16
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 2486
+        width: 180
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafc5564a85dbab4bbaf7646482d270b
+      internalID: 923735464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_17
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 2528
+        width: 72
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefd929366feaa84389e773b8d359071
+      internalID: -1368947131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_18
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 2528
+        width: 54
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdf0fc676232a94780604297392629e
+      internalID: 618582136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_19
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 2528
+        width: 55
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471c96eb8c0967645a3d4065b10f5922
+      internalID: 1888548958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_20
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 2545
+        width: 79
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f498421addc09bb4f84f48329e93041e
+      internalID: -498281252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_21
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 2536
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c26255de3157cb458c779fa7671a4e7
+      internalID: -1824995725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_22
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 2519
+        width: 61
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d8acce66afd5a44b7eb1895d1e27cc
+      internalID: 1060849540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_23
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 2503
+        width: 64
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61572190942fd124e846349f57f41211
+      internalID: -631207724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_24
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 2528
+        width: 71
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d42a4d3d9577241a2ed2d496fe604c
+      internalID: -1320641396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_25
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 2528
+        width: 53
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff0567437393b042b5fc9bc4e1615a2
+      internalID: -1246586644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_26
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 2528
+        width: 53
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094f577fce0af004497ffb31581d4ff0
+      internalID: 674566077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2287
+        width: 162
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a392b86bd9cdd448a989cda8fb56395
+      internalID: 1957760235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2370
+        width: 53
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c5ffee55680ea408fa163154086508
+      internalID: 2031174526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_29
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2370
+        width: 39
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af25b4c81d2303d44b22f5a15c67db6e
+      internalID: 1140487122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_30
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2370
+        width: 38
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b197ab9bf1a6c4b4780e48fca8c84b3c
+      internalID: -1475384431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_31
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 2287
+        width: 162
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa554ee98a9e974dbc8d448d4d7a0da
+      internalID: 835598201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_32
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2370
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf2762335b520a46b79eda4541ebe45
+      internalID: 1760328404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_33
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 2370
+        width: 37
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ea89a56475304f859ad42f74b85a6
+      internalID: 46824900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_34
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2370
+        width: 37
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469bfae088550ef4885f866909b92bd0
+      internalID: -212337276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_35
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 2287
+        width: 146
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81e144b9391c9c44ada3e7b4df3bc93
+      internalID: -59580075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_36
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 2370
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86301c7dff63a734e8d3e450b7ef9110
+      internalID: -844887686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_37
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 2370
+        width: 37
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6808f23faafd641a641d4d192c7453
+      internalID: -1421431990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_38
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 2370
+        width: 38
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf95b8aae1ad94c47850bd9b7c99df60
+      internalID: 818416741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_39
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2278
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddeee65dd3eac64dbc8f921079c89ba
+      internalID: -1239165260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_40
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 2370
+        width: 53
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19a91722d1217e47a56dce53b39b79c
+      internalID: -372525861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_41
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2370
+        width: 39
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bdb8120780f06409100f43de9fcd81
+      internalID: 156936081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_42
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 2370
+        width: 37
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3780fdb6e58a1bc4e9ddb485fce9892b
+      internalID: -730629856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_43
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 2287
+        width: 162
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c30da386edafa43ba65f066e49a899
+      internalID: 1738203013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_44
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 2370
+        width: 54
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067d3b8185b911e4894c1f735d556f24
+      internalID: 1379880725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_45
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 2370
+        width: 38
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4134e579f652bd4b9c5312eb3b6d5b8
+      internalID: 1424051081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_46
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 2370
+        width: 37
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cd7e429c60ac949ab59b1ce252d063
+      internalID: 626976259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_47
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 2344
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f5c03534dfeac43808e517c406c987
+      internalID: -1227281914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_48
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 2337
+        width: 53
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6a5b89a74776348a44566cb5e66ebb
+      internalID: -1041993333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_49
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 2320
+        width: 46
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5061e3d004c036d48aac4a84a2f7d019
+      internalID: 1245140427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_50
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 2302
+        width: 46
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59bd3392819d314cb30604260b88917
+      internalID: -1218236703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_51
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 2328
+        width: 53
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7578cb39ca4e0db41bc474fadfe1b51a
+      internalID: -565997473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_52
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 2328
+        width: 37
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc65dc17d66277e45abf42fbbf79d7bc
+      internalID: 1179276163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_53
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 2328
+        width: 39
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b24bc74e4a8f434d8ef80b1f2a6c8d7
+      internalID: 1459750259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_54
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2103
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1326cfd86da6a9f489e383205791e54d
+      internalID: -1031066306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_55
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2103
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2842abdb241e9e44b7e3f3529506ee9
+      internalID: -292039534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_56
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2103
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e91e7e1774795458c9304fd793acdc
+      internalID: 1908360469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_57
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2103
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dd0b9f0c493c146b9e720aed39f394
+      internalID: -916811639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_58
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1995
+        width: 213
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca277b232f9be5347811f60ee1dab4ba
+      internalID: -97496541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_59
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2111
+        width: 138
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c80885f971ac924191ec257455b7cd6
+      internalID: -878952645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_60
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2105
+        width: 177
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f32b5129a3e8c40b63296f10dfc9d6
+      internalID: -388489474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_61
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1927
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b815a5743ff91643807ad78a759a6fe
+      internalID: 539716768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_62
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 2039
+        width: 153
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4c9874c645cd9408bafabb731f5a82
+      internalID: 156386201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_63
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1978
+        width: 219
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed53e79ec6f7d0349bd2e8b1037bd568
+      internalID: 60550511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_64
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 1945
+        width: 221
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb9f233040dbf64ea27e9b60c09e0d8
+      internalID: 979445844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_65
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 1895
+        width: 263
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e23b64fedf9efa4f834fe7a1840169c
+      internalID: 1769123075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_66
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 2002
+        width: 180
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba87e0a1eb5cff49b10e692d44030a2
+      internalID: 990030424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_67
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 2002
+        width: 180
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a288ffc9d2fa646b20e3f6ce83e64c
+      internalID: -405939312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_68
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 2002
+        width: 162
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dae65b0330758439ec123f12509df1
+      internalID: -1470647068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_69
+      rect:
+        serializedVersion: 2
+        x: 3532
+        y: 2002
+        width: 178
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f323a05b30b985143a483af8dfdcf007
+      internalID: -1517012662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_70
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 2002
+        width: 178
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2791f8a2fa51494dbab3b6f90d60c89
+      internalID: -1194272064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_71
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1936
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a84f493484e1a438aaac2f2d13926b
+      internalID: -359816122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_72
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1936
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e022fefb63608e49a8187ae6a0a0324
+      internalID: 696693296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_73
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1936
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da4b488919287a428517aaa5d567f51
+      internalID: 1421411038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_74
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1936
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f396599b28e0f544bc3de8ca154d8bd
+      internalID: -1780351139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_75
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1908
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ab74e7fdb10384fad5e4d63d438c10
+      internalID: -1368649028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_76
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1965
+        width: 138
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9e48c084c77e74bb3e34fa5ea13adf
+      internalID: 1592185237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_77
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1960
+        width: 177
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca4a5240b133774abc6ce89eeaa0577
+      internalID: -30348648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_78
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1919
+        width: 143
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9cea596e681904f80b60a820aa7c4e
+      internalID: 830071127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_79
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1743
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b95abfb4bf19940932e679d420f368
+      internalID: -1009074929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_80
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1743
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e56bccb647e81448df3b3a4f2a4e19
+      internalID: 2015513972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_81
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1743
+        width: 123
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ccaade3790cfe419fcb88916aa154e
+      internalID: 1296409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_82
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1743
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdc0dd5e69fb5d4e9873cbfbb0e91e4
+      internalID: 12350468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_83
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1743
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed09c5e48fce2ee4784b498816a048dd
+      internalID: -229670068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_84
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1743
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115647ff694fc96449db815001894f6c
+      internalID: -1031334641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_85
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1781
+        width: 203
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbd18420fa0c614f90ffd80b629ce3b
+      internalID: -602823139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_86
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1595
+        width: 269
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc41756d51c47334dac91aba2d75e0f7
+      internalID: 1505884863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_87
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1706
+        width: 153
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bba8c185cd28fd419a52fb4b65d26e8
+      internalID: 1745461693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_88
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1651
+        width: 205
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8acc0636d4eabc49ac4350852e16930
+      internalID: -1183234633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_89
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1619
+        width: 203
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b7aa7a40b767340ae4c9ad39ee6c59
+      internalID: 1556245929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_90
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 1568
+        width: 245
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca1f5c5fef95c1459543d60cf67dbdd
+      internalID: 80774764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_91
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 1660
+        width: 221
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4554a4c740a394799b0e3bbc2ce028
+      internalID: -1214697901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_92
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 1695
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa540d3094c7ce469ad867f019c4ced
+      internalID: 362868962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_93
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 1595
+        width: 262
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da933026359d624dac39e1e2d911b9d
+      internalID: -3748408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_94
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1660
+        width: 222
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaa32171e7eee84fa9fa04d9a9232ad
+      internalID: 2098905896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_95
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1586
+        width: 143
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a80b1480e8d63a48a44b16aee41fd4b
+      internalID: -1891748186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_96
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1586
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cd043de38b9e545a98b0665bb43a2f
+      internalID: 2033136994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_97
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1586
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f1c40e7ea5d2f4a83307255b4c3122
+      internalID: 1670115906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_98
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1586
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5487af8ffdb6aae4eb3094550c16581a
+      internalID: -824662440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_99
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1586
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4933d4ea6435234b8d39c808ead62d5
+      internalID: -1122968620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_100
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1586
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dda88b082fa094eb8c99bc8ab5d1de
+      internalID: -616997166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_101
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1595
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa3a14ea3899284a9d238c3dd22add4
+      internalID: -1875951643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_102
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1595
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0720b31a5437b2b409b90b0093e0d6af
+      internalID: -216873900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_103
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1595
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c3e703fe3eef04b85a83bb048d056d
+      internalID: -311831595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_104
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1595
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f816229b532363843a2a687b2dba9f4e
+      internalID: -1451292053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_105
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1595
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90ef3023d38d0d4fb0d2c998fdcac00
+      internalID: 1856107122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_106
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1397
+        width: 184
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e400e0be06d96ac43a3f1677ae3281f2
+      internalID: -1722993805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_107
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1485
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dea1fe791627e3458eafea31ba456aa
+      internalID: -1940352713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_108
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1485
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95464dfcf45baa40b4adf3b470d644d
+      internalID: 1468209262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_109
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1485
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff7641bb4d787046acf5002ab9c29c9
+      internalID: 110926613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_110
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1485
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67074ebea82e744bb2b7ca05cf88b03
+      internalID: 1346269317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_111
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1485
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8237a545efe593c47952093333b681b5
+      internalID: -503491226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_112
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1494
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d02e0b8d8fda146ae2e45a62b290b8
+      internalID: 77478430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_113
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1494
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef530982275c5fe499faf99a2f8d62ac
+      internalID: 1684172555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_114
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1494
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0335a851adedc4047b1282e4547e7f5d
+      internalID: 1476507860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_115
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1494
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede1721fd6b5d7247983f1233537dc94
+      internalID: 1725769355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_116
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1494
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122982e586527c04e9a0c6c2dbd1a891
+      internalID: 1823520302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_117
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1303
+        width: 73
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419587a5c72e0ab4ead1796fd0586b18
+      internalID: 1777069619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_118
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1395
+        width: 88
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bfe3764d5fc374e90e1eb4de8d2ef8
+      internalID: -344408427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_119
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1395
+        width: 37
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e806c872c3f764344aed9728d5c2d02a
+      internalID: -615911757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_120
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1386
+        width: 72
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284bf21f1866f2f41b3f1421399af4ea
+      internalID: -1559867387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_121
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1345
+        width: 92
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821090a5e1356dc42b4a53709eb32ac4
+      internalID: -238531755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_122
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1303
+        width: 175
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced25684cef683e43835c8e872ec03a6
+      internalID: 1378334864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_123
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 1303
+        width: 158
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6bca0258bd79f42960f979c5f890c9
+      internalID: -280943358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_124
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 1303
+        width: 175
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c9382ec2a55f449b3df5a54b820f28
+      internalID: -1617663566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_125
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1378
+        width: 37
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683fedf4e2e4bc249b7da7ca5324d12f
+      internalID: -203688272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_126
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1378
+        width: 37
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e244f30b2f0b86a46b3dbe381483e43c
+      internalID: -1256416197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_127
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1378
+        width: 37
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc2167abeb088e41b65db6f8d0a2b7a
+      internalID: 492538707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_128
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1378
+        width: 38
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025b035f8c1fbe54c9e6f11c0536963e
+      internalID: 2000889236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_129
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1378
+        width: 37
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893337e8c21774b40ac541fd15389189
+      internalID: 1332319365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_130
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1386
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b539fbfa37ed1334fb6690b48cf4570e
+      internalID: -1013002577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_131
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1386
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ea5dc9a755d2f46af981bca804d07c
+      internalID: -1537173943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_132
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1386
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf91b68f939dac4b880fe03fa99fa1f
+      internalID: -1588485971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_133
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1386
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7804a782a6174847934342c943d04c1
+      internalID: -1089234741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_134
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1386
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f3e558dcf0154f9dce7b31e0a3320
+      internalID: -189312436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_135
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 1196
+        width: 251
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7ef7c162227bd45917d1490fc08c71
+      internalID: 161678257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_136
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 1202
+        width: 239
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152c9e0db31d39347ac033e4e9e00e4f
+      internalID: -782921685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_137
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 1189
+        width: 265
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0b6d8c4791e54fb50e299db1a0066
+      internalID: 1168338770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_138
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 1227
+        width: 195
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406c9f954987b6a4ea066aaa7485c676
+      internalID: 713603185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_139
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 1211
+        width: 224
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0c29c9ee6faed439d3fbb0ad5cb0c0
+      internalID: 666994312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_140
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 926
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1cfde96ac0cea4981f9a3e8cb03c9d
+      internalID: 1868025712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_141
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 926
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca80f29fe7e882409aa41ae3705c140
+      internalID: 821531632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_142
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 926
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06dd2e074dfbd0499d5dcf1a30c2ac5
+      internalID: 388429428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_143
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 926
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74748e7a88b84ae459176dc65f1bc500
+      internalID: -1115422193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_144
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 926
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d261feadedd784fbe3dc0005ffa05e
+      internalID: 1750562165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_145
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 926
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa32dd9137a15fc43b6436a85d663589
+      internalID: 2062083331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_146
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 926
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f13ed397f7273b47b381d5f771f2f5d
+      internalID: 2146272262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_147
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 926
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33022858c0772a44b00d3badf5a7650
+      internalID: 1896112839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_148
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 926
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2a499041a5343489b60cff376dd67e
+      internalID: -1395207261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_149
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 821
+        width: 249
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95926d2e061315d46a149ca2f186e55f
+      internalID: -1176319548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_150
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 828
+        width: 237
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf2a81e1457d514aa255a7336638764
+      internalID: 1082210626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_151
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 815
+        width: 265
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ef885b43364c468a2d2b36d4b316d
+      internalID: -1375984146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_152
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 852
+        width: 195
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a0adaeb7368384c9341da3acd3066b
+      internalID: -2083471129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_153
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 837
+        width: 224
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae6a35a670b6074eb26ca4a51551cad
+      internalID: -793761532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_154
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 618
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47500809135bce04586888ec1b8be970
+      internalID: -572711563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_155
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 618
+        width: 269
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818ccca6ced560d4cb6c665de9bac930
+      internalID: 275622790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_156
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 618
+        width: 269
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdf2573284b01843b22c946078f43f7
+      internalID: -1744225847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_157
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 618
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d5cce599f96044b9136ace18a9fe6c
+      internalID: 1566831709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_158
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 618
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b796ce884e719e048b78c364e14e06c6
+      internalID: 459273445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_159
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 618
+        width: 271
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5986d8a51620cae49b9f7b35012f0be0
+      internalID: 875242213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_160
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 618
+        width: 269
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed46feae4737c734ca21d7556ba2e5a9
+      internalID: 1179463256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_161
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 618
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91dd20dfb889384b9db968cb017a587
+      internalID: -954846182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_162
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 618
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42dac7bf8b5b0c498421fb1af1754d8
+      internalID: -68517412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_163
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 311
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c87fcb23174df24880d82c9e866d648
+      internalID: 1030189591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_164
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 311
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb1edf33653aee43b04dccbdabc365b
+      internalID: 756111791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_165
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 311
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e6f23a24a4714468e5a7a3f9f4b5cd
+      internalID: -180548693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_166
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 311
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8587eb24a1ac9c24aa679dfb88ed82f3
+      internalID: 9888152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_167
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 311
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a891335be6cd843809cfc541941b5d
+      internalID: -422303094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_168
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 311
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674c999237472e148ab8c25e6352fcbf
+      internalID: 1583224251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_169
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 311
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd9ce236dd956b499d9fa662127343d
+      internalID: 1082893645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_170
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 311
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9dfd3253763d8488b4796ae28f14cc
+      internalID: -1793574156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_171
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 311
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad0a8300a136604a8735b95b966fe1c
+      internalID: 137385699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_172
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 311
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc64379b7c602f04c9464276a93ab180
+      internalID: 1106283518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_173
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 311
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27aaf36403e287419bf6eaa6de41d1d
+      internalID: 1740948009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_174
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da99bddfb343154480d6e483faf6d01
+      internalID: 1631919257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_175
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 2
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6759b7b26960b468586dfcd680ab38
+      internalID: -794520701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_176
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f828e3cc450a11244a762e64dd31f481
+      internalID: 1922855966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_177
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 2
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1f73b52440d9d449aba160fda00d32
+      internalID: -93831112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_178
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 2
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fdf51d51a2104449923d2c528dfe79
+      internalID: -499203186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_179
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659b00950ace8dc46b97030b1c8cc095
+      internalID: -251716911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_180
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 2
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484abbadae12e3c4baeeb5fb5cfb2897
+      internalID: -1388615988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_181
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 2
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3215e96a58c8448b1e46d40673907c
+      internalID: -1419332621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_182
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 2
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bad1d099996b3f4ab7c85ffa9268b58
+      internalID: 3410950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_183
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 2
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f3b0ed25618724c858e0822b0eb471
+      internalID: 882360866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdownTanks_vector_184
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 2
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ebb36a045618247b1178aeef3804b2
+      internalID: -1361118130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      topdownTanks_vector_0: 682715680
+      topdownTanks_vector_1: -1161257925
+      topdownTanks_vector_10: -20541309
+      topdownTanks_vector_100: -616997166
+      topdownTanks_vector_101: -1875951643
+      topdownTanks_vector_102: -216873900
+      topdownTanks_vector_103: -311831595
+      topdownTanks_vector_104: -1451292053
+      topdownTanks_vector_105: 1856107122
+      topdownTanks_vector_106: -1722993805
+      topdownTanks_vector_107: -1940352713
+      topdownTanks_vector_108: 1468209262
+      topdownTanks_vector_109: 110926613
+      topdownTanks_vector_11: -1729773752
+      topdownTanks_vector_110: 1346269317
+      topdownTanks_vector_111: -503491226
+      topdownTanks_vector_112: 77478430
+      topdownTanks_vector_113: 1684172555
+      topdownTanks_vector_114: 1476507860
+      topdownTanks_vector_115: 1725769355
+      topdownTanks_vector_116: 1823520302
+      topdownTanks_vector_117: 1777069619
+      topdownTanks_vector_118: -344408427
+      topdownTanks_vector_119: -615911757
+      topdownTanks_vector_12: 431609249
+      topdownTanks_vector_120: -1559867387
+      topdownTanks_vector_121: -238531755
+      topdownTanks_vector_122: 1378334864
+      topdownTanks_vector_123: -280943358
+      topdownTanks_vector_124: -1617663566
+      topdownTanks_vector_125: -203688272
+      topdownTanks_vector_126: -1256416197
+      topdownTanks_vector_127: 492538707
+      topdownTanks_vector_128: 2000889236
+      topdownTanks_vector_129: 1332319365
+      topdownTanks_vector_13: 338984781
+      topdownTanks_vector_130: -1013002577
+      topdownTanks_vector_131: -1537173943
+      topdownTanks_vector_132: -1588485971
+      topdownTanks_vector_133: -1089234741
+      topdownTanks_vector_134: -189312436
+      topdownTanks_vector_135: 161678257
+      topdownTanks_vector_136: -782921685
+      topdownTanks_vector_137: 1168338770
+      topdownTanks_vector_138: 713603185
+      topdownTanks_vector_139: 666994312
+      topdownTanks_vector_14: -1374882857
+      topdownTanks_vector_140: 1868025712
+      topdownTanks_vector_141: 821531632
+      topdownTanks_vector_142: 388429428
+      topdownTanks_vector_143: -1115422193
+      topdownTanks_vector_144: 1750562165
+      topdownTanks_vector_145: 2062083331
+      topdownTanks_vector_146: 2146272262
+      topdownTanks_vector_147: 1896112839
+      topdownTanks_vector_148: -1395207261
+      topdownTanks_vector_149: -1176319548
+      topdownTanks_vector_15: -887226643
+      topdownTanks_vector_150: 1082210626
+      topdownTanks_vector_151: -1375984146
+      topdownTanks_vector_152: -2083471129
+      topdownTanks_vector_153: -793761532
+      topdownTanks_vector_154: -572711563
+      topdownTanks_vector_155: 275622790
+      topdownTanks_vector_156: -1744225847
+      topdownTanks_vector_157: 1566831709
+      topdownTanks_vector_158: 459273445
+      topdownTanks_vector_159: 875242213
+      topdownTanks_vector_16: 923735464
+      topdownTanks_vector_160: 1179463256
+      topdownTanks_vector_161: -954846182
+      topdownTanks_vector_162: -68517412
+      topdownTanks_vector_163: 1030189591
+      topdownTanks_vector_164: 756111791
+      topdownTanks_vector_165: -180548693
+      topdownTanks_vector_166: 9888152
+      topdownTanks_vector_167: -422303094
+      topdownTanks_vector_168: 1583224251
+      topdownTanks_vector_169: 1082893645
+      topdownTanks_vector_17: -1368947131
+      topdownTanks_vector_170: -1793574156
+      topdownTanks_vector_171: 137385699
+      topdownTanks_vector_172: 1106283518
+      topdownTanks_vector_173: 1740948009
+      topdownTanks_vector_174: 1631919257
+      topdownTanks_vector_175: -794520701
+      topdownTanks_vector_176: 1922855966
+      topdownTanks_vector_177: -93831112
+      topdownTanks_vector_178: -499203186
+      topdownTanks_vector_179: -251716911
+      topdownTanks_vector_18: 618582136
+      topdownTanks_vector_180: -1388615988
+      topdownTanks_vector_181: -1419332621
+      topdownTanks_vector_182: 3410950
+      topdownTanks_vector_183: 882360866
+      topdownTanks_vector_184: -1361118130
+      topdownTanks_vector_19: 1888548958
+      topdownTanks_vector_2: -1832116838
+      topdownTanks_vector_20: -498281252
+      topdownTanks_vector_21: -1824995725
+      topdownTanks_vector_22: 1060849540
+      topdownTanks_vector_23: -631207724
+      topdownTanks_vector_24: -1320641396
+      topdownTanks_vector_25: -1246586644
+      topdownTanks_vector_26: 674566077
+      topdownTanks_vector_27: 1957760235
+      topdownTanks_vector_28: 2031174526
+      topdownTanks_vector_29: 1140487122
+      topdownTanks_vector_3: 1897247148
+      topdownTanks_vector_30: -1475384431
+      topdownTanks_vector_31: 835598201
+      topdownTanks_vector_32: 1760328404
+      topdownTanks_vector_33: 46824900
+      topdownTanks_vector_34: -212337276
+      topdownTanks_vector_35: -59580075
+      topdownTanks_vector_36: -844887686
+      topdownTanks_vector_37: -1421431990
+      topdownTanks_vector_38: 818416741
+      topdownTanks_vector_39: -1239165260
+      topdownTanks_vector_4: 1801801342
+      topdownTanks_vector_40: -372525861
+      topdownTanks_vector_41: 156936081
+      topdownTanks_vector_42: -730629856
+      topdownTanks_vector_43: 1738203013
+      topdownTanks_vector_44: 1379880725
+      topdownTanks_vector_45: 1424051081
+      topdownTanks_vector_46: 626976259
+      topdownTanks_vector_47: -1227281914
+      topdownTanks_vector_48: -1041993333
+      topdownTanks_vector_49: 1245140427
+      topdownTanks_vector_5: 1455392919
+      topdownTanks_vector_50: -1218236703
+      topdownTanks_vector_51: -565997473
+      topdownTanks_vector_52: 1179276163
+      topdownTanks_vector_53: 1459750259
+      topdownTanks_vector_54: -1031066306
+      topdownTanks_vector_55: -292039534
+      topdownTanks_vector_56: 1908360469
+      topdownTanks_vector_57: -916811639
+      topdownTanks_vector_58: -97496541
+      topdownTanks_vector_59: -878952645
+      topdownTanks_vector_6: 1496730003
+      topdownTanks_vector_60: -388489474
+      topdownTanks_vector_61: 539716768
+      topdownTanks_vector_62: 156386201
+      topdownTanks_vector_63: 60550511
+      topdownTanks_vector_64: 979445844
+      topdownTanks_vector_65: 1769123075
+      topdownTanks_vector_66: 990030424
+      topdownTanks_vector_67: -405939312
+      topdownTanks_vector_68: -1470647068
+      topdownTanks_vector_69: -1517012662
+      topdownTanks_vector_7: -1882737482
+      topdownTanks_vector_70: -1194272064
+      topdownTanks_vector_71: -359816122
+      topdownTanks_vector_72: 696693296
+      topdownTanks_vector_73: 1421411038
+      topdownTanks_vector_74: -1780351139
+      topdownTanks_vector_75: -1368649028
+      topdownTanks_vector_76: 1592185237
+      topdownTanks_vector_77: -30348648
+      topdownTanks_vector_78: 830071127
+      topdownTanks_vector_79: -1009074929
+      topdownTanks_vector_8: -684579802
+      topdownTanks_vector_80: 2015513972
+      topdownTanks_vector_81: 1296409
+      topdownTanks_vector_82: 12350468
+      topdownTanks_vector_83: -229670068
+      topdownTanks_vector_84: -1031334641
+      topdownTanks_vector_85: -602823139
+      topdownTanks_vector_86: 1505884863
+      topdownTanks_vector_87: 1745461693
+      topdownTanks_vector_88: -1183234633
+      topdownTanks_vector_89: 1556245929
+      topdownTanks_vector_9: 791480653
+      topdownTanks_vector_90: 80774764
+      topdownTanks_vector_91: -1214697901
+      topdownTanks_vector_92: 362868962
+      topdownTanks_vector_93: -3748408
+      topdownTanks_vector_94: 2098905896
+      topdownTanks_vector_95: -1891748186
+      topdownTanks_vector_96: 2033136994
+      topdownTanks_vector_97: 1670115906
+      topdownTanks_vector_98: -824662440
+      topdownTanks_vector_99: -1122968620
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
