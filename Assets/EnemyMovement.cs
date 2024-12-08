@@ -1,43 +1,58 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Scripting.APIUpdating;
+using UnityEngine.Experimental.AI;
+using UnityEngine.UIElements;
+
 
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] private GameObject head;
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private float bulletSpeed;
-    [SerializeField] private float bulletLifeTime = 2f;
-    [SerializeField] private float timeBetweenShoots = 0.5f;
-    [SerializeField] private Transform shootOrigin;
+    [SerializeField] private float timeBetweenMovementChange = 5f;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private float movementSpeed = 4f;
+    [SerializeField] private float turnSpeed = 90f;
+    private float lastMovementChange = 0f;
 
-
-    private float lastShootTime = 0f;
-
-
+    private int[] angles;
 
     void Awake()
     {
-        lastShootTime = 0f;
+        lastMovementChange = 0f;
+        rb = GetComponent<Rigidbody2D>();
+        angles = new int[] { 0, 90, 180, 270 };
     }
 
     void FixedUpdate()
     {
-        if (Time.fixedTime - lastShootTime > timeBetweenShoots) Shoot();
-        Move();
-    }
+        if (Time.fixedTime - lastMovementChange < timeBetweenMovementChange)
+        {
+            Move();
+        }
+        else
+        {
+            Turn();
+        }
 
-    void Shoot()
-    {
-        lastShootTime = Time.fixedTime;
-        GameObject bullet = Instantiate(bulletPrefab, shootOrigin.position, head.transform.rotation);
-        bullet.GetComponent<Rigidbody2D>().AddForce(head.transform.up * bulletSpeed, ForceMode2D.Impulse);
-        Destroy(bullet, bulletLifeTime);
     }
 
     void Move()
     {
+        Vector2 movement = transform.up * movementSpeed * Time.deltaTime;
+        rb.MovePosition(rb.position + movement);
+    }
 
+    void Turn()
+    {
+        rb.SetRotation(angles[Random.Range(0, 4)] * (Random.Range(0, 2) * 2 - 1));
+        lastMovementChange = Time.fixedTime;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Wall") || other.gameObject.CompareTag("Limit") || other.gameObject.CompareTag("Border"))
+        {
+            rb.SetRotation(rb.rotation + 90 * (Random.Range(0, 2) * 2 - 1));
+        }
     }
 }

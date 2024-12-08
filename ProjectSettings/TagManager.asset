@@ -7,11 +7,13 @@ TagManager:
   - Enemy
   - Base
   - Wall
+  - Limit
+  - Border
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 

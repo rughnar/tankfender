@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TankAttack : MonoBehaviour
+public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private GameObject head;
     [SerializeField] private KeyCode shootKey;
@@ -20,6 +20,7 @@ public class TankAttack : MonoBehaviour
     {
         GameObject bullet = Instantiate(bulletPrefab, shootOrigin.position, head.transform.rotation);
         bullet.GetComponent<Rigidbody2D>().AddForce(head.transform.up * bulletSpeed, ForceMode2D.Impulse);
+        bullet.GetComponent<BulletBehaviour>().objectiveTag = "Enemy";
         Destroy(bullet, bulletLifeTime);
     }
 }
