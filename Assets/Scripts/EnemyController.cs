@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Tankfender;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Tankfender
@@ -12,14 +13,14 @@ namespace Tankfender
         [SerializeField] private int maxLives = 1;
         [SerializeField] private AudioClip deathSound;
 
-        private GameManager gameManager;
+        private EnemyManager enemyManager;
         private SoundManager soundManager;
         private EnemyAttack enemyAttack;
         private EnemyMovement enemyMovement;
         // Start is called before the first frame update
         void Awake()
         {
-            gameManager = FindObjectOfType<GameManager>();
+            enemyManager = FindObjectOfType<EnemyManager>();
             soundManager = FindObjectOfType<SoundManager>();
             enemyAttack = GetComponent<EnemyAttack>();
             enemyMovement = GetComponent<EnemyMovement>();
@@ -42,16 +43,10 @@ namespace Tankfender
             {
                 enemyAttack.enabled = false;
                 enemyMovement.enabled = false;
+                enemyManager.EnemyTakenDown();
                 Destroy(this.gameObject, 0.5f);
 
             }
-        }
-
-        void Respawn()
-        {
-            //set base animation
-            this.transform.position = gameManager.GetSpawnPoint().position;
-            //invulnerable
         }
     }
 

@@ -34,6 +34,8 @@ namespace Tankfender
         private AmmoManager ammoManager;
         private HPManager hpManager;
 
+        private EnemyManager enemyManager;
+
 
 
         // Start is called before the first frame update
@@ -57,6 +59,7 @@ namespace Tankfender
             ammoManager.SetParameters(currentPlayerAmmo, maxPlayerAmmo);
             hpManager = FindObjectOfType<HPManager>();
             hpManager.SetParameters(currentPlayerLives, maxPlayerLives);
+            enemyManager = FindObjectOfType<EnemyManager>();
         }
 
         // Update is called once per frame
