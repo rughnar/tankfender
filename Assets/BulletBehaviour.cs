@@ -21,6 +21,13 @@ public class BulletBehaviour : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Destroy(other.gameObject);
+            Destroy(this.gameObject);
+        }
+
         if (other.gameObject.CompareTag("Enemy"))
         {
             Destroy(other.gameObject);

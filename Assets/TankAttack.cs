@@ -8,7 +8,8 @@ public class TankAttack : MonoBehaviour
     [SerializeField] private KeyCode shootKey;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private float bulletSpeed;
-    [SerializeField] private float lifeTime = 2f;
+    [SerializeField] private float bulletLifeTime = 2f;
+    [SerializeField] private Transform shootOrigin;
 
     void Update()
     {
@@ -17,8 +18,8 @@ public class TankAttack : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, head.transform.position, head.transform.rotation);
+        GameObject bullet = Instantiate(bulletPrefab, shootOrigin.position, head.transform.rotation);
         bullet.GetComponent<Rigidbody2D>().AddForce(head.transform.up * bulletSpeed, ForceMode2D.Impulse);
-        Destroy(bullet, lifeTime);
+        Destroy(bullet, bulletLifeTime);
     }
 }
