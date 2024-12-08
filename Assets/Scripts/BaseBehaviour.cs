@@ -7,7 +7,6 @@ namespace Tankfender
     public class BaseBehaviour : MonoBehaviour
     {
         [SerializeField] private int maxHP = 3;
-
         [SerializeField] private float currHP = 3;
         [SerializeField] private AudioClip destroyed;
 
@@ -21,13 +20,14 @@ namespace Tankfender
             soundManager = FindObjectOfType<SoundManager>();
         }
 
-        void OnCollisionEnter2D(Collision2D other)
+        private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.CompareTag("Bullet"))
             {
                 ReduceHP();
             }
         }
+
 
         void ReduceHP()
         {

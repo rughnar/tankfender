@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - Limit
   - Border
+  - Bullet
   layers:
   - Default
   - TransparentFX
