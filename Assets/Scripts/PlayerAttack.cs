@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 namespace Tankfender
 {
@@ -19,7 +20,7 @@ namespace Tankfender
         private GameManager gameManager;
         private SoundManager soundManager;
 
-        private float lastBulletTime = 0f;
+        private bool reloading = false;
 
 
         private void Awake()
@@ -35,30 +36,27 @@ namespace Tankfender
 
         void Shoot()
         {
-            if (currentAmmo > 0)
+            if (!reloading)
             {
+                currentAmmo -= 1;
                 GameObject bullet = Instantiate(bulletPrefab, shootOrigin.position, head.transform.rotation);
                 bullet.GetComponent<Rigidbody2D>().AddForce(head.transform.up * bulletSpeed, ForceMode2D.Impulse);
                 bullet.GetComponent<BulletBehaviour>().objectiveTag = "Enemy";
                 gameManager.BulletShot();
                 soundManager.PlaySFX(shoot);
                 Destroy(bullet, bulletLifeTime);
-                currentAmmo -= 1;
-            }
-            else
-            {
-                Reload();
+                if (currentAmmo <= 0) { StartCoroutine(Reload()); }
             }
 
         }
 
-        void Reload()
+        IEnumerator Reload()
         {
-            if (Time.fixedTime - lastBulletTime > timeToReload)
-            {
-                currentAmmo = maxAmmo;
-                gameManager.Reload();
-            }
+            reloading = true;
+            yield return new WaitForSeconds(timeToReload);
+            currentAmmo = maxAmmo;
+            gameManager.Reload();
+            reloading = false;
         }
 
 
