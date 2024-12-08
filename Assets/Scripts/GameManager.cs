@@ -20,6 +20,8 @@ namespace Tankfender
         [SerializeField] private int maxPlayerAmmo = 5;
         [SerializeField] private int currentPlayerLives = 3;
         [SerializeField] private int maxPlayerLives = 3;
+
+        [SerializeField] Transform spawnTransform;
         public KeyCode resetKey = KeyCode.R;
         public KeyCode pauseKey = KeyCode.P;
         public KeyCode alternativeResumeKey = KeyCode.Escape;
@@ -30,6 +32,7 @@ namespace Tankfender
         private SoundManager soundManager;
 
         private AmmoManager ammoManager;
+        private HPManager hpManager;
 
 
 
@@ -52,6 +55,8 @@ namespace Tankfender
             soundManager = FindObjectOfType<SoundManager>();
             ammoManager = FindObjectOfType<AmmoManager>();
             ammoManager.SetParameters(currentPlayerAmmo, maxPlayerAmmo);
+            hpManager = FindObjectOfType<HPManager>();
+            hpManager.SetParameters(currentPlayerLives, maxPlayerLives);
         }
 
         // Update is called once per frame
@@ -131,20 +136,21 @@ namespace Tankfender
             gamePaused = false;
         }
 
-        public void BackToMainMenu()
-        {
-            SceneManager.LoadScene(0);
-        }
+        public void BackToMainMenu() { SceneManager.LoadScene(0); }
 
-        public void BulletShot()
-        {
-            ammoManager.ReduceAmmoBy1();
-        }
+        public void BulletShot() { ammoManager.ReduceAmmoBy1(); }
 
-        public void Reload()
-        {
-            ammoManager.Reload();
-        }
+        public void Reload() { ammoManager.Reload(); }
+
+        public void ReduceLivesByOne() { hpManager.ReduceHPBy1(); }
+
+        public void RefillLives() { hpManager.Refill(); }
+
+        public int GetCurrentLives() { return currentPlayerLives; }
+
+        public int GetMaxLives() { return maxPlayerLives; }
+
+        public Transform GetSpawnPoint() { return spawnTransform; }
     }
 
 }

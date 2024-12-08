@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Tankfender;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Experimental.AI;
@@ -20,7 +21,14 @@ public class BulletBehaviour : MonoBehaviour
 
         if (other.gameObject.CompareTag(objectiveTag))
         {
-            Destroy(other.gameObject);
+            if (other.gameObject.tag == "Enemy")
+            {
+                other.gameObject.GetComponent<EnemyController>().TakeDamage();
+            }
+            else
+            {
+                other.gameObject.GetComponent<PlayerController>().TakeDamage();
+            }
             Destroy(this.gameObject);
         }
     }
