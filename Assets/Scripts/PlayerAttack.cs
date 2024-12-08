@@ -16,10 +16,11 @@ namespace Tankfender
         [SerializeField] private int currentAmmo = 5;
         [SerializeField] private int maxAmmo = 5;
         [SerializeField] private AudioClip shoot;
+        [SerializeField] private float timeBetweenShoots = 0.1f;
+        private float timeSinceLastShot = 0f;
 
         private GameManager gameManager;
         private SoundManager soundManager;
-
         private bool reloading = false;
 
 
@@ -27,6 +28,7 @@ namespace Tankfender
         {
             gameManager = FindObjectOfType<GameManager>();
             soundManager = FindObjectOfType<SoundManager>();
+            timeSinceLastShot = 0f;
         }
 
         void Update()
@@ -36,8 +38,9 @@ namespace Tankfender
 
         void Shoot()
         {
-            if (!reloading)
+            if (!reloading && Time.fixedTime - timeSinceLastShot >= timeBetweenShoots)
             {
+                timeSinceLastShot = Time.fixedTime;
                 currentAmmo -= 1;
                 GameObject bullet = Instantiate(bulletPrefab, shootOrigin.position, head.transform.rotation);
                 bullet.GetComponent<Rigidbody2D>().AddForce(head.transform.up * bulletSpeed, ForceMode2D.Impulse);
