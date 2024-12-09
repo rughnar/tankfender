@@ -9076,14 +9076,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1446116170}
     m_Modifications:
-    - target: {fileID: 756182251285789775, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1485351673027892570, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2180788821900084915, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -9164,19 +9156,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2363382400791748583, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2794503636724710539, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2933148951208014434, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 4717762689674549490, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
+    - target: {fileID: 3017102685353984596, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
