@@ -351,8 +351,8 @@ MonoBehaviour:
   m_Speed: 4
   m_TurnSpeed: 180
   m_MovementAudio: {fileID: 0}
-  m_EngineIdling: {fileID: 0}
-  m_EngineDriving: {fileID: 0}
+  m_EngineIdling: {fileID: 8300000, guid: bc5200f4e0e3f8b409a4583262a00dc5, type: 3}
+  m_EngineDriving: {fileID: 8300000, guid: 3db4506703977e24682b0aaabcffa826, type: 3}
   m_PitchRange: 0.2
 --- !u!50 &312639698032498966
 Rigidbody2D:

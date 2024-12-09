@@ -7923,7 +7923,7 @@ PrefabInstance:
     - target: {fileID: 5096255534432616138, guid: 88356e5e4a3a5304190635bb40b62bfa, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 44b69209e4c75114ab4df53f68d6597e, type: 3}
+      objectReference: {fileID: 8300000, guid: feed07264ad558b40b5cc11f3dcc6dc9, type: 3}
     - target: {fileID: 5096255534432616138, guid: 88356e5e4a3a5304190635bb40b62bfa, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
@@ -9184,6 +9184,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 3017102685353984596, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4717762689674549490, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -12709,7 +12713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8289289451580348326, guid: 137fa2258b7ee4043bcd69a0a44d2cb0, type: 3}
       propertyPath: totalLevelEnemies
-      value: 1
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8289289451580348326, guid: 137fa2258b7ee4043bcd69a0a44d2cb0, type: 3}
       propertyPath: maxEnemiesAtTheSameTime

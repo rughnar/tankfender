@@ -8989,6 +8989,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6869411604518051297, guid: f11463d97f489e14799edf4e20e3555b, type: 3}
+      propertyPath: m_MovementAudio
+      value: 
+      objectReference: {fileID: 1533138798}
     - target: {fileID: 8277882933767575385, guid: f11463d97f489e14799edf4e20e3555b, type: 3}
       propertyPath: m_Name
       value: Player
@@ -12685,7 +12689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8289289451580348326, guid: 137fa2258b7ee4043bcd69a0a44d2cb0, type: 3}
       propertyPath: totalLevelEnemies
-      value: 1
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

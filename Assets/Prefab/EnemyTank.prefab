@@ -330,7 +330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLives: 1
   maxLives: 1
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 494f401ae1f108e40826b9b9a08ec673, type: 3}
 --- !u!1 &3788080134093155994
 GameObject:
   m_ObjectHideFlags: 0

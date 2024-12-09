@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         m_TurnAxisName = "Horizontal";
 
         // Store the original pitch of the audio source.
-        //m_OriginalPitch = m_MovementAudio.pitch;
+        m_OriginalPitch = m_MovementAudio.pitch;
     }
 
 
@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
         m_MovementInputValue = Input.GetAxis(m_MovementAxisName);
         m_TurnInputValue = Input.GetAxis(m_TurnAxisName);
 
-        //EngineAudio();
+        EngineAudio();
     }
 
 
@@ -75,7 +75,17 @@ public class PlayerMovement : MonoBehaviour
                 // ... change the clip to idling and play it.
                 m_MovementAudio.clip = m_EngineIdling;
                 m_MovementAudio.pitch = Random.Range(m_OriginalPitch - m_PitchRange, m_OriginalPitch + m_PitchRange);
+                m_MovementAudio.PlayOneShot(m_EngineIdling);
                 m_MovementAudio.Play();
+            }
+            else
+            {
+                if (!m_MovementAudio.isPlaying)
+                {
+                    m_MovementAudio.clip = m_EngineIdling;
+                    m_MovementAudio.Play();
+
+                }
             }
         }
         else
@@ -87,6 +97,14 @@ public class PlayerMovement : MonoBehaviour
                 m_MovementAudio.clip = m_EngineDriving;
                 m_MovementAudio.pitch = Random.Range(m_OriginalPitch - m_PitchRange, m_OriginalPitch + m_PitchRange);
                 m_MovementAudio.Play();
+            }
+            else
+            {
+                if (!m_MovementAudio.isPlaying)
+                {
+                    m_MovementAudio.clip = m_EngineDriving;
+                    m_MovementAudio.Play();
+                }
             }
         }
     }
