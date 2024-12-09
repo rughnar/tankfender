@@ -103,7 +103,7 @@ namespace Tankfender
             {
                 //        PlayerPrefs.SetInt("PlayerBullets", playerBehaviourController.GetBullets());
                 //        PlayerPrefs.SetFloat("PlayerHP", playerBehaviourController.GetHP());
-                PlayerPrefs.Save();
+                //PlayerPrefs.Save();
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else

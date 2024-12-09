@@ -2644,6 +2644,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3777393812727695959, guid: 10a936d049ef7434b81c3df6252f15e7, type: 3}
   m_PrefabInstance: {fileID: 568282954}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &569854100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3017102685353984596, guid: 1ee81e86b92e6d449a12ada41d6f712c, type: 3}
+  m_PrefabInstance: {fileID: 1737755116}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &581406698 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3777393812727695959, guid: 10a936d049ef7434b81c3df6252f15e7, type: 3}
@@ -7231,7 +7236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa5cbf6927e07754cb4e7ff95df43164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseScreen: {fileID: 0}
+  loseScreen: {fileID: 569854100}
   winScreen: {fileID: 241848149}
   pauseScreen: {fileID: 54137856}
   winSound: {fileID: 8300000, guid: f049c395bc47af4409c6130e9ee1ffdc, type: 3}
