@@ -7,40 +7,53 @@ using UnityEngine;
 using UnityEngine.Experimental.AI;
 using UnityEngine.Tilemaps;
 
-public class BulletBehaviour : MonoBehaviour
+namespace Tankfender
 {
-    public string objectiveTag = "Enemy";
-
-    void OnTriggerEnter2D(Collider2D other)
+    public class BulletBehaviour : MonoBehaviour
     {
-        if (other.gameObject.CompareTag("Wall"))
+        public string objectiveTag = "Enemy";
+        public AudioClip wallbreak;
+        private SoundManager soundManager;
+
+
+        void Awake()
         {
-            Destroy(other.gameObject);
-            Destroy(this.gameObject);
+            soundManager = FindObjectOfType<SoundManager>();
         }
 
-        if (other.gameObject.CompareTag(objectiveTag))
+        void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.tag == "Enemy")
+            if (other.gameObject.CompareTag("Wall"))
             {
-                other.gameObject.GetComponent<EnemyController>().TakeDamage();
+                soundManager.PlaySFX(wallbreak);
+                Destroy(other.gameObject);
+                Destroy(this.gameObject);
             }
-            else
+
+            if (other.gameObject.CompareTag(objectiveTag))
             {
-                other.gameObject.GetComponent<PlayerController>().TakeDamage();
+                if (other.gameObject.tag == "Enemy")
+                {
+                    other.gameObject.GetComponent<EnemyController>().TakeDamage();
+                }
+                else
+                {
+                    other.gameObject.GetComponent<PlayerController>().TakeDamage();
+                }
+                Destroy(this.gameObject);
             }
-            Destroy(this.gameObject);
         }
-    }
 
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Wall"))
+        void OnTriggerStay2D(Collider2D other)
         {
-            Destroy(other.gameObject);
-            Destroy(this.gameObject);
+            if (other.gameObject.CompareTag("Wall"))
+            {
+                Destroy(other.gameObject);
+                Destroy(this.gameObject);
+            }
         }
-    }
 
+
+    }
 
 }

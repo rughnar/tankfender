@@ -8949,10 +8949,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 738962578289299280, guid: f11463d97f489e14799edf4e20e3555b, type: 3}
-      propertyPath: deathSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 494f401ae1f108e40826b9b9a08ec673, type: 3}
     - target: {fileID: 3506615896487137557, guid: f11463d97f489e14799edf4e20e3555b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.97
@@ -8992,10 +8988,6 @@ PrefabInstance:
     - target: {fileID: 3506615896487137557, guid: f11463d97f489e14799edf4e20e3555b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4605484764519359752, guid: f11463d97f489e14799edf4e20e3555b, type: 3}
-      propertyPath: timeBetweenShoots
-      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 8277882933767575385, guid: f11463d97f489e14799edf4e20e3555b, type: 3}
       propertyPath: m_Name
@@ -12710,10 +12702,6 @@ PrefabInstance:
     - target: {fileID: 8289289451580348326, guid: 137fa2258b7ee4043bcd69a0a44d2cb0, type: 3}
       propertyPath: totalLevelEnemies
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8289289451580348326, guid: 137fa2258b7ee4043bcd69a0a44d2cb0, type: 3}
-      propertyPath: maxEnemiesAtTheSameTime
-      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -172,3 +172,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveTag: Enemy
+  wallbreak: {fileID: 8300000, guid: bfdd54cd9d53b5a4b937aa8f497c9ba9, type: 3}

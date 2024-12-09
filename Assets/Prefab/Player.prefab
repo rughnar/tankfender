@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 2c5e0eb8f084fc54e92a309aa1bd4d51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLives: 3
   maxLives: 3
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 494f401ae1f108e40826b9b9a08ec673, type: 3}
 --- !u!114 &4605484764519359752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,3 +418,4 @@ MonoBehaviour:
   currentAmmo: 5
   maxAmmo: 5
   shoot: {fileID: 8300000, guid: 2b7841fb4163a474493f2463db7b19f0, type: 3}
+  timeBetweenShoots: 0.35
