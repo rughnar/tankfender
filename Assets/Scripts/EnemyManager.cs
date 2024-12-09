@@ -45,7 +45,7 @@ public class EnemyManager : MonoBehaviour
         quantityEnemiesDestroyed += 1;
         if (quantityEnemiesDestroyed == totalLevelEnemies)
         {
-            gameManager.WinGame();
+            gameManager.EndLevel();
         }
     }
 }
