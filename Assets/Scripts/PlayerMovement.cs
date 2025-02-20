@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private float m_TurnInputValue;             // The current value of the turn input.
     private float m_OriginalPitch;              // The pitch of the audio source at the start of the scene.
 
-
+    private float currentAngle = 0f;
     private void Awake()
     {
         m_Rigidbody = GetComponent<Rigidbody2D>();
@@ -61,6 +61,10 @@ public class PlayerMovement : MonoBehaviour
         m_TurnInputValue = Input.GetAxis(m_TurnAxisName);
 
         EngineAudio();
+        if (Input.GetKeyDown(KeyCode.W)) this.gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+        if (Input.GetKeyDown(KeyCode.A)) this.gameObject.transform.rotation = Quaternion.Euler(0, 0, 90);
+        if (Input.GetKeyDown(KeyCode.S)) this.gameObject.transform.rotation = Quaternion.Euler(0, 0, 180);
+        if (Input.GetKeyDown(KeyCode.D)) this.gameObject.transform.rotation = Quaternion.Euler(0, 0, 270);
     }
 
 
@@ -109,19 +113,16 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        // Adjust the rigidbodies position and orientation in FixedUpdate.
         Move();
-        Turn();
     }
-
 
     private void Move()
     {
+
         // Create a vector in the direction the tank is facing with a magnitude based on the input, speed and the time between frames.
-        Vector2 movement = transform.up * m_MovementInputValue * m_Speed * Time.deltaTime;
+        Vector2 movement = transform.up * Mathf.Clamp(Mathf.Abs(m_MovementInputValue) + Mathf.Abs(m_TurnInputValue), 0, 1) * m_Speed * Time.deltaTime;
 
         // Apply this movement to the rigidbody's position.
         m_Rigidbody.MovePosition(m_Rigidbody.position + movement);
@@ -131,11 +132,21 @@ public class PlayerMovement : MonoBehaviour
     private void Turn()
     {
 
-        // Determine the number of degrees to be turned based on the input, speed and time between frames.
-        float turn = m_TurnInputValue * m_TurnSpeed * Time.deltaTime;
+        if (m_TurnInputValue != 0)
+        {
+            // Calcula el nuevo ángulo basado en la entrada
+            float newAngle = currentAngle + (m_TurnInputValue > 0 ? 90f : -90f);
 
-        // Apply this rotation to the rigidbody's rotation.
-        m_Rigidbody.MoveRotation(m_Rigidbody.rotation - turn);
+            // Asegúrate de que el nuevo ángulo esté dentro de un rango válido (0-360 grados)
+            newAngle = newAngle % 360;
 
+            // Aplica la rotación
+            transform.rotation = Quaternion.Euler(0, 0, newAngle);
+
+            // Actualiza el ángulo actual
+            currentAngle = newAngle;
+        }
     }
+
+
 }
