@@ -15,13 +15,16 @@ namespace Tankfender
         public AudioClip wallbreak;
         private SoundManager soundManager;
         private Rigidbody2D rb2d;
-        private Tilemap tilemap;
+
+        private ObstacleTilemapController obstacleTilemapController;
+        private Tilemap obstacleTilemap;
 
         void Awake()
         {
             soundManager = FindFirstObjectByType<SoundManager>();
             rb2d = GetComponent<Rigidbody2D>();
-            tilemap = FindFirstObjectByType<Tilemap>();
+            obstacleTilemapController = FindFirstObjectByType<ObstacleTilemapController>();
+            obstacleTilemap = obstacleTilemapController.obstacleTilemap;
         }
 
 
@@ -33,13 +36,13 @@ namespace Tankfender
         private void CheckForTile()
         {
             // Encuentra el Tilemap en la escena
-            Vector3Int tilePosition = tilemap.WorldToCell(transform.position);
+            Vector3Int tilePosition = obstacleTilemap.WorldToCell(transform.position);
 
             // Verifica si hay un tile en la posición
-            if (tilemap.GetTile(tilePosition) != null)
+            if (obstacleTilemap.GetTile(tilePosition) != null)
             {
                 // Destruye el tile
-                tilemap.SetTile(tilePosition, null);
+                obstacleTilemap.SetTile(tilePosition, null);
                 soundManager.PlaySFXFluctuatingPitch(wallbreak);
                 Destroy(gameObject); // Destruye la bala
             }
