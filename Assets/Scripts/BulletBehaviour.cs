@@ -14,21 +14,39 @@ namespace Tankfender
         public string objectiveTag = "Enemy";
         public AudioClip wallbreak;
         private SoundManager soundManager;
-
+        private Rigidbody2D rb2d;
+        private Tilemap tilemap;
 
         void Awake()
         {
-            soundManager = FindObjectOfType<SoundManager>();
+            soundManager = FindFirstObjectByType<SoundManager>();
+            rb2d = GetComponent<Rigidbody2D>();
+            tilemap = FindFirstObjectByType<Tilemap>();
+        }
+
+
+        void FixedUpdate()
+        {
+            CheckForTile();
+        }
+
+        private void CheckForTile()
+        {
+            // Encuentra el Tilemap en la escena
+            Vector3Int tilePosition = tilemap.WorldToCell(transform.position);
+
+            // Verifica si hay un tile en la posición
+            if (tilemap.GetTile(tilePosition) != null)
+            {
+                // Destruye el tile
+                tilemap.SetTile(tilePosition, null);
+                soundManager.PlaySFXFluctuatingPitch(wallbreak);
+                Destroy(gameObject); // Destruye la bala
+            }
         }
 
         void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.CompareTag("Wall"))
-            {
-                soundManager.PlaySFX(wallbreak);
-                Destroy(other.gameObject);
-                Destroy(this.gameObject);
-            }
 
             if (other.gameObject.CompareTag(objectiveTag))
             {
@@ -43,16 +61,6 @@ namespace Tankfender
                 Destroy(this.gameObject);
             }
         }
-
-        void OnTriggerStay2D(Collider2D other)
-        {
-            if (other.gameObject.CompareTag("Wall"))
-            {
-                Destroy(other.gameObject);
-                Destroy(this.gameObject);
-            }
-        }
-
 
     }
 

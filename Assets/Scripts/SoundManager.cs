@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using System;
 
 public class SoundManager : MonoBehaviour
 {
@@ -17,7 +18,8 @@ public class SoundManager : MonoBehaviour
 
     void Awake()
     {
-        if(musicSlider != null && sfxSlider != null){
+        if (musicSlider != null && sfxSlider != null)
+        {
             audioMixer.SetFloat("musicVolume", Mathf.Log10(PlayerPrefs.GetFloat("musicVolume")) * 20);
             audioMixer.SetFloat("sfxVolume", Mathf.Log10(PlayerPrefs.GetFloat("sfxVolume")) * 20);
         }
@@ -61,5 +63,15 @@ public class SoundManager : MonoBehaviour
     public void PlaySFX(AudioClip audioClip)
     {
         sfx.PlayOneShot(audioClip);
+    }
+
+
+    public void PlaySFXFluctuatingPitch(AudioClip audioClip)
+    {
+        float ogPitch = sfx.pitch;
+        sfx.pitch = UnityEngine.Random.Range(0.1f, 2.5f);
+        Debug.Log("Playing sound with pitch: " + sfx.pitch);
+        sfx.PlayOneShot(audioClip);
+        sfx.pitch = ogPitch;
     }
 }
